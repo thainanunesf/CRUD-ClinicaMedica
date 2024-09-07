@@ -1,5 +1,5 @@
 # CRUD-ClinicaMedica
-Projeto avaliativo, desenvolvido no 3º semestre de Tecnologia em Sistemas para Internet
+Projeto avaliativo, desenvolvido no 3º semestre de Tecnologia em Sistemas para Internet, um sistema simples para cadastrar, atualizar, apagar e listar os paciente de clinica X.
 
 Exemplo didático de CRUD básico com nodejs mysql e express
 
