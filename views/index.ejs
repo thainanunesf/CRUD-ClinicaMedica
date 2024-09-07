@@ -8,186 +8,197 @@
   <link rel="stylesheet" href="/public/style.css">
   <style>
     /* Estilo geral para o corpo da página */
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    color: #fbfbfb;
-    background-color: #13293D;
-  }
-  
-  /* Estilo para o cabeçalho */
-  .header {
-    text-align: justify;
-    margin-bottom: 30px;
-  }
-  
-  .header img{
-    align-items: center;
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-  }
-  
-  .header h1 {
-    font-size: 2em;
-    color: #fbfbfb;
-    text-align: center;
-  }
-  
-  /* Estilo para os formulários */
-  .menu form {
-    background-color: #006494;
-    padding: 20px 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-  }
-  
-  .menu h2 {
-    font-size: 1.5em;
-    color: #e8f1f2;
-    text-align: center;
-  }
-  
-  .menu label {
-    display: block;
-    margin: 10px 0 5px;
-  }
-  
-  .menu input {
-    width: calc(100% - 22px);
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-  }
-  
-  .menu button {
-    border-radius: 10px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    background-color: #007bff;
-    color: #fff;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .menu button:hover {
-    background-color: #8fa8c4;
-  }
-  
-  /* Estilo para a tabela */
-  table {
-    width: 100%;
-    border-collapse:separate;
-    margin-bottom: 20px 20px 20px 0;
-    ;
-  }
-  
-  table, th, td {
-   
-    border-radius: 10px 10px 10px 10px;
-    
-  }
-  
-  th, td {
-    padding: 10px;
-    text-align: center;
-    background-color: #006494;
-  }
-  
-  thead {
-    background-color: #007bff;
-    color: #fff;
-  }
-  
-  tbody tr:nth-child(even) {
-    background-color: #000;
-  }
-  
-  tbody tr:hover {
-    background-color: #f2f2f2;
-  }
-  
-  /* Estilo para a mensagem de tabela vazia */
-  p {
-    font-size: 1.2em;
-    color: #fffcfc;
-  }
-  
-  footer {
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #006494;
-    color: #fff;
-    font-size: 1em;
-    border-radius: 5px;
-  }
-  footer a {
-    color: #c4fcef;
-    text-decoration: none;
-  }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      color: #fbfbfb;
+      background-color: #13293D;
+    }
+
+    /* Estilo para o cabeçalho */
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .header img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .header h1 {
+      font-size: 2em;
+      color: #fbfbfb;
+    }
+
+    /* Estilo para o menu de navegação */
+    .nav {
+      background-color: #006494;
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .nav a {
+      color: #e8f1f2;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.2em;
+    }
+
+    .nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Estilo para os formulários */
+    .menu form {
+      background-color: #006494;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    .menu h2 {
+      font-size: 1.5em;
+      color: #e8f1f2;
+      text-align: center;
+    }
+
+    .menu label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+
+    .menu input {
+      width: calc(100% - 22px);
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+    .menu button {
+      border-radius: 10px;
+      padding: 10px 20px;
+      border: none;
+      background-color: #007bff;
+      color: #fff;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .menu button:hover {
+      background-color: #8fa8c4;
+    }
+
+    /* Estilo para a tabela */
+    table {
+      width: 100%;
+      border-collapse: separate;
+      margin-bottom: 20px;
+    }
+
+    table, th, td {
+      border-radius: 10px;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: center;
+      background-color: #006494;
+    }
+
+    thead {
+      background-color: #007bff;
+      color: #fff;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #000;
+    }
+
+    tbody tr:hover {
+      background-color: #f2f2f2;
+    }
+
+    /* Estilo para a mensagem de tabela vazia */
+    p {
+      font-size: 1.2em;
+      color: #fffcfc;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #006494;
+      color: #fff;
+      font-size: 1em;
+      border-radius: 5px;
+    }
+
+    footer a {
+      color: #c4fcef;
+      text-decoration: none;
+    }
   </style>
-    
-</head>
 </head>
 <body>
   <div class="header">
     <h1>Bem-vindo à Clínica MédicalCare</h1>
   </div>
 
+  <div class="nav">
+    <a href="#add-paciente">Adicionar Paciente</a>
+    <a href="#delete-paciente">Apagar Paciente</a>
+    <a href="#update-paciente">Atualizar Paciente</a>
+    <a href="#consultas">Consultas Marcadas</a>
+  </div>
+
   <div class="menu">
-    <form action="/add" method="post">
+    <form id="add-paciente" action="/add" method="post">
       <h2>Adicionar Paciente</h2>
       <label for="CPF">CPF:</label>
       <input type="number" id="CPF" name="CPF" placeholder="Digite o CPF do paciente" required><br>
       <label for="nome">Nome Completo:</label>
-      <input type="text" id="nome" name="nome"placeholder="Digite o Nome do paciente" required><br>
+      <input type="text" id="nome" name="nome" placeholder="Digite o Nome do paciente" required><br>
       <label for="idade">Idade:</label>
       <input type="number" id="idade" name="idade" placeholder="Digite a idade do paciente" required><br>
       <label for="dataConsulta">Data Marcada:</label>
-      <input type="date" id="dataConsulta" name="dataConsulta" placeholder="Digite a data da Conulta" required><br>
+      <input type="date" id="dataConsulta" name="dataConsulta" placeholder="Digite a data da Consulta" required><br>
       <label for="horaConsulta">Hora Marcada:</label>
       <input type="time" id="horaConsulta" name="horaConsulta" placeholder="Digite a hora da Consulta" required><br>
       <button type="submit">Adicionar Paciente</button>
     </form>
 
-    <form action="/delete" method="post">
+    <form id="delete-paciente" action="/delete" method="post">
       <h2>Apagar Paciente</h2>
       <label for="CPF">CPF:</label>
-      <input type="text" id="CPF" name="CPF" placeholder="Digite o CPF do paciente" required ><br>
+      <input type="text" id="CPF" name="CPF" placeholder="Digite o CPF do paciente" required><br>
       <button type="submit">Apagar Paciente</button>
     </form>
 
-    <form action="/update" method="post">
+    <form id="update-paciente" action="/update" method="post">
       <h2>Atualizar Paciente</h2>
-      
-      <!-- Identificador único do paciente -->
       <label for="CPF">CPF:</label>
       <input type="text" id="CPF" name="CPF" placeholder="Digite o CPF do paciente" required><br>
-      
-      <!-- Campos que serão atualizados -->
       <label for="name">Nome Completo:</label>
       <input type="text" id="nome" name="nome" placeholder="Digite o novo nome do paciente"><br>
-      
       <label for="age">Idade:</label>
       <input type="number" id="idade" name="idade" placeholder="Digite a nova idade do paciente"><br>
-      
       <label for="dateScheduled">Data Marcada:</label>
-      <input type="date" id="dataConsulta" name="dataConsulta"  placeholder="Digite a nova data marcada"><br>
-      
+      <input type="date" id="dataConsulta" name="dataConsulta" placeholder="Digite a nova data marcada"><br>
       <label for="timeScheduled">Hora Marcada:</label>
       <input type="time" id="horaConsulta" name="horaConsulta" placeholder="Digite a nova hora marcada"><br>
-      
       <button type="submit">Atualizar Paciente</button>
     </form>
-    
   </div>
 
-  <h2>Consultas Marcadas</h2>
+  <h2 id="consultas">Consultas Marcadas</h2>
   <% if (paciente.length === 0) { %>
     <p>Tabela vazia</p>
   <% } else { %>
@@ -214,9 +225,9 @@ body {
       </tbody>
     </table>
   <% } %>
-</body>
 
-<footer>
-	<p>Desenvolvido por <a href= "https://www.instagram.com/thainanunes_f/" target="_blanck"> Thainá Cassiano</a> - 2024</p>
- 	</footer>
+  <footer>
+    <p>Desenvolvido por <a href="https://www.instagram.com/thainanunes_f/" target="_blank">Thainá Cassiano</a> - 2024</p>
+  </footer>
+</body>
 </html>
